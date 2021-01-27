@@ -2,6 +2,7 @@
 #include <vector>
 #include <math.h>
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 
@@ -13,13 +14,13 @@ Statistics::ComputeStatistics::ComputeStatistics(const std::vector<float> &ar)
     if(computeStatistics.size() == 0)
     {
     average = NAN;
-    minimum = NAN;
-    maximum = NAN;
+    min = NAN;
+    max = NAN;
     }
     else
     {
-        minimum = *std::min_element(computeStatistics.begin(), computeStatistics.end());
-        maximum = *std::max_element(computeStatistics.begin(), computeStatistics.end());
+        min = *std::min_element(computeStatistics.begin(), computeStatistics.end());
+        max = *std::max_element(computeStatistics.begin(), computeStatistics.end());
         for(std::size_t i = 0; i < computeStatistics.size(); i++)
             sum += computeStatistics.at(i);
             average =  sum/computeStatistics.size();
