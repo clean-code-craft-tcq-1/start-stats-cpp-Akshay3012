@@ -1,7 +1,12 @@
 #include "stats.h"
 #include <vector>
 #include <math.h>
+#include <iostream>
 using namespace std;
+
+namespace Statistics {
+    class ComputeStatistics; 
+}
 class Statistics::ComputeStatistics {
    public:
     std::vector<float> computeStatistics;
