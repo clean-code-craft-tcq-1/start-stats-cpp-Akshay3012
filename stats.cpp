@@ -21,7 +21,7 @@ Statistics::ComputeStatistics::ComputeStatistics(const std::vector<float> &ar)
     {
         min = *std::min_element(computeStatistics.begin(), computeStatistics.end());
         max = *std::max_element(computeStatistics.begin(), computeStatistics.end());
-        for(int i = 0; i < computeStatistics.size(); i++)
+        for(unsigned i = 0; i < computeStatistics.size(); i++)
         {
             sum += computeStatistics.at(i);
             average =  sum/computeStatistics.size();
