@@ -1,10 +1,10 @@
 #include "stats.h"
-
+#include <vector>
+#include <math.h>
+using namespace std;
 class Statistics::ComputeStatistics {
-    private:
-        std::vector<float> computeStatistics;
-
    public:
+    std::vector<float> computeStatistics;
     float maximum;
     float minimum;
     float average;
