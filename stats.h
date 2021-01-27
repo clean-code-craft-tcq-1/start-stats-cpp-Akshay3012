@@ -4,8 +4,7 @@
 using namespace std;
 
 namespace Statistics {
-    class ComputeStatistics; 
-}
+  
 class ComputeStatistics {
    public:
     std::vector<float> computeStatistics;
