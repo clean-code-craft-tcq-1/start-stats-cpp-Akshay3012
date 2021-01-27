@@ -6,7 +6,7 @@ using namespace std;
 namespace Statistics 
 {
  
-    ComputeStatistics::ComputeStatistics(const std::vector<float> &ar);
+    Statistics::ComputeStatistics::ComputeStatistics(const std::vector<float> &ar);
 }
 
 //namespace Statistics {
