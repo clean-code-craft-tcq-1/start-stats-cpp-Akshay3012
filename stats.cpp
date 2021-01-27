@@ -4,17 +4,6 @@
 #include <iostream>
 using namespace std;
 
-namespace Statistics {
-    class ComputeStatistics; 
-}
-class Statistics::ComputeStatistics {
-   public:
-    std::vector<float> computeStatistics;
-    float maximum;
-    float minimum;
-    float average;
-   ComputeStatistics(const std::vector<float> &ar);
-};
 
 Statistics::ComputeStatistics::ComputeStatistics(const std::vector<float> &ar)
 {
