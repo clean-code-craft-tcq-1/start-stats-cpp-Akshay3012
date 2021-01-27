@@ -1,8 +1,8 @@
-#include "stats.h"
 #include <vector>
-#include <math.h>
 #include <iostream>
 #include <algorithm>
+#include <math.h>
+#include "stats.h"
 using namespace std;
 
 
