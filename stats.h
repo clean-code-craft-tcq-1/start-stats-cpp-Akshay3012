@@ -13,6 +13,7 @@ class ComputeStatistics {
     float average;
    ComputeStatistics(const std::vector<float> &ar);
 };
+}
 
 //namespace Statistics {
  //  Stats ComputeStatistics(const std::vector<___>& );
