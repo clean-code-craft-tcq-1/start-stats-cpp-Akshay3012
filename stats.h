@@ -8,8 +8,8 @@ namespace Statistics {
 class ComputeStatistics {
    public:
     std::vector<float> computeStatistics;
-    float maximum;
-    float minimum;
+    float max;
+    float min;
     float average;
    ComputeStatistics(const std::vector<float> &ar);
 };
