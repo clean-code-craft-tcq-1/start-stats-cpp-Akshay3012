@@ -18,11 +18,11 @@ class ComputeStatistics {
 class IAlerter
 {
     public:
-    virtual void setEmail(bool x)
+    virtual void setEmail(bool)
     {
 
     }
-    virtual void setLedStatus(bool x)
+    virtual void setLedStatus(bool)
     {
 
     }
